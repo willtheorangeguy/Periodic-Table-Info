@@ -11,6 +11,6 @@ setup(
     author = 'William Vandergraaf',
     author_email = 'willtheorangeguy@outlook.com',
     url = 'https://github.com/dog-face-development/Periodic-Table-Info',
-    license='MIT',
+    license='GNU GENERAL PUBLIC LICENSE',
     description= "This program is a great way to learn more about the diffrent elements of the Periodic Table",
 )
