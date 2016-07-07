@@ -3,9 +3,9 @@ Run this program from the Python Module (IDLE) and you will see a list of all th
 
 ## Instalation and Use
 - Download the file from this link: 
-- Extract all of the files form the ZIP folder that downloads.
-- Run the print.py file from the folder.
-- Have fun learning about the diffrent elements of the Periodic Table.
+- Extract all of the files from the ZIP folder that downloads.
+- Run the main.py file from the folder.
+- Have fun learning about the diffrent elements of the Periodic Table from this wonderful resource.
 
 ## Purpose
 This app was developed for education. To be a refrence to, and also teach people about The Periodic Table. It has now branched out to become a piece of software for any body who want to learn about the Periodic Table or have a refrence to the Periodic Table on their computer.
