@@ -17,7 +17,7 @@ Once you have run the main.py file, a list all the current Periodic Table elemen
 
 
 ## Releases
-The current release is 1.0 Beta. The next release, version 1.0 Alpha is coming out soon with the following features:
+The current release is 1.0 Beta. The next release, version 1.0 is coming out soon with the following features:
 - All the current Periodic Table elements. 
 - The finnished product.
 
