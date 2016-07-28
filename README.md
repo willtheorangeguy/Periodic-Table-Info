@@ -1,4 +1,6 @@
 # Periodic Table Info
+
+[![Join the chat at https://gitter.im/Dog-Face-Development/Periodic-Table-Info](https://badges.gitter.im/Dog-Face-Development/Periodic-Table-Info.svg)](https://gitter.im/Dog-Face-Development/Periodic-Table-Info?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Run this program from the Python Module (IDLE) and you will see a list of all the elements on the Periodic Table print to the screen. Type the name of the one you would like to learn more about on the imput line and all the information you'll ever want to know prints out for you easy viewing! This app was developed for education. To be a refrence to, and also teach people about The Periodic Table. It has now branched out to become a piece of software for any body who want to learn about the Periodic Table or have a refrence to the Periodic Table on their computer.
 
 
