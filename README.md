@@ -30,8 +30,8 @@ Your Pull Requests for new features are always welcome! Look to see some of your
 ## Bugs and Issues
 Who likes bugs? If you’ve found any feel free to let me know on the issues page and I will make sure to fix them in short order, and release those fixes in new releases.
 
-## Maintainer
-- @willtherangeguy - Project Manager and Repo Creator
+## Maintainers
+- @willtheorangeguy - Project Manager and Repo Creator
 - Wikipedia
 - Basher
 
