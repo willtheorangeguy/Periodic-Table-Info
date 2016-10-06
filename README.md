@@ -32,8 +32,6 @@ Who likes bugs? If you’ve found any feel free to let me know on the issues pag
 
 ## Maintainers
 - @willtheorangeguy - Project Manager and Repo Creator
-- Wikipedia
-- Basher
 
 
 ## A Quick Note
