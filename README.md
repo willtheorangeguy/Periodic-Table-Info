@@ -9,7 +9,7 @@ Run this program from the Python Module (IDLE) and you will see a list of all th
 ## Installation
 
 ### Through the Python Module (IDLE)
--	Download the Python module if you haven’t already: [Download Link](https://www.python.org/ftp/python/3.5.2/python-3.5.2.exe), and install it,
+-	Download the Python module if you haven’t already: [Download Link](https://www.python.org/downloads), and install it,
 -	Extract files from your GitHub Download,
 -	Double click the main.py file in File Explorer,
 -	And the app will open for you to use!
