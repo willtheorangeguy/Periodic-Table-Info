@@ -1,4 +1,5 @@
 """
+Copyright (C) 2016 - 2018 Dog Face Development Company
 This prints all of the elements to the screen. And then presents the enter field.
 This is also the joining file.
 """

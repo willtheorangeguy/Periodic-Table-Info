@@ -1,4 +1,5 @@
 """
+Copyright (C) 2016 - 2018 Dog Face Development Company
 This is the main program file for Periodic Table Info.
 Run this file to run the app.
 """
@@ -18,4 +19,4 @@ if input_from_user.lower() == "" :
 
 else :
     print("Sorry, that is not an element of the current Periodic Table!")
-    print("Remember to type it like this: 'Sodium' or 'sodium'. Capatlization dosen't matter. No punctuation.")
+    print("Remember to type it like this: 'Sodium' or 'sodium'. Capatlization dosen't matter. No punctuation, please!")

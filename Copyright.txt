@@ -1,5 +1,5 @@
-(C) Copyright 2016 William Vandergraaf
-For copyright information fell free to contact me on the issues page of the GitHub repo where you downloaded this program or email me.
+(C) Copyright 2016 - 2018 Dog Face Development Company
+For copyright information feel free to contact me on the issues page of the GitHub repo where you downloaded this program or email me.
 
 This software is released for education and general refrence use.
 

@@ -1,6 +1,5 @@
-# Setup Inofrmation
-#This is not an important Python script!
-# Just a script with my information.
+# Setup Information
+# Copyright (C) 2016 - 2018 Dog Face Development Company
 
 import os
 import sys
