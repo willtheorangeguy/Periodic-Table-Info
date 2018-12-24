@@ -38,11 +38,6 @@ Who likes bugs? If you’ve found any feel free to let me know on the issues pag
 ## Maintainers
 - @willtheorangeguy - Project Manager and Repo Creator
 
-
-## A Quick Note
-The reason why (if you where wondering) none of the pull requests go through Travis CI or Circle CI before getting merged is because, first, we haven’t really figured it out yet (we’d love some help), second, the project is so small we don’t really need it (but we’d like it), third, we like testing out the builds ourself, so it fits really well. And that’s why!
-
-
 ## Other Links
 Visit these other links to learn more about The Periodic Table Info app.
 
