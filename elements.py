@@ -1,5 +1,5 @@
 """
-Copyright (C) 2016 - 2018 Dog Face Development Company
+Copyright (C) 2016 - 2019 Dog Face Development Co.
 This prints all of the elements to the screen. And then presents the enter field.
 This is also the joining file.
 """
@@ -111,3 +111,4 @@ def element_print_out():
     print("118. Element 118 - Unkown Element (Uuo)")
     print("")
     print("Lanthanoid Elements")
+    

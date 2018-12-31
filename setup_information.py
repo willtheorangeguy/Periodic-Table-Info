@@ -1,11 +1,11 @@
 # Setup Information
-# Copyright (C) 2016 - 2018 Dog Face Development Company
+# Copyright (C) 2016 - 2019 Dog Face Development Co.
 
 import os
 import sys
 
-setup(
-    name='Periodic Table Info'
+(
+    name='Periodic Table Info',
     version='1.0 Beta',
     author = 'William Vandergraaf',
     author_email = 'willtheorangeguy@outlook.com',

@@ -1,5 +1,5 @@
 """
-Copyright (C) 2016 - 2018 Dog Face Development Company
+Copyright (C) 2016 - 2019 Dog Face Development Co.
 This is the main program file for Periodic Table Info.
 Run this file to run the app.
 """
