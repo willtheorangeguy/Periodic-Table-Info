@@ -1,5 +1,5 @@
 """
-Copyright (C) 2016 - 2019 Dog Face Development Co.
+Copyright (C) 2016 - 2022 Dog Face Development Co.
 This prints all of the elements to the screen. And then presents the enter field.
 This is also the joining file.
 """
@@ -23,7 +23,7 @@ def element_print_out():
     print("87. Francium (Fr)")
     print("")
     print("Alkaline Earth Metals - Group 2")
-    print("4. Berllium (Be)")
+    print("4. Beryllium (Be)")
     print("12. Magnesium (Mg)")
     print("20. Calcium (Ca)")
     print("38. Strontium (Sr)")

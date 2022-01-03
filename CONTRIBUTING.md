@@ -4,7 +4,7 @@ Thank you for your interest in contributing to Periodic Table Info! Before you c
 
 **All code is written in Python 3.5-3.6.**
 
-**All code is copyright (C) 2016 - 2018 Dog Face Development Company**
+**All code is copyright (C) 2016 - 2022 Dog Face Development Co.**
 
 Pull Request and Issue Templates can be found here:
 

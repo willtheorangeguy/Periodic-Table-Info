@@ -1,6 +1,6 @@
-(C) Copyright 2016 - 2018 Dog Face Development Company
+(C) Copyright 2016 - 2022 Dog Face Development Co.
 For copyright information feel free to contact me on the issues page of the GitHub repo where you downloaded this program or email me.
 
-This software is released for education and general refrence use.
+This software is released for education and general reference use.
 
 This software is released under the  GNU GENERAL PUBLIC LICENSE. 
