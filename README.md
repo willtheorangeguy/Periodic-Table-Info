@@ -1,6 +1,6 @@
 <!-- Logo -->
 <h1 align="center">
-  <img src="https://github.com/Dog-Face-Development/Periodic-Table-Info/blob/master/docs/images/logo.png" height="250px" width="400px" alt="Periodic Table Info">
+  <img src="https://github.com/Dog-Face-Development/Periodic-Table-Info/blob/master/docs/images/logo.png" height="350px" width="400px" alt="Periodic Table Info">
   <br>
   Periodic Table Info
   <br>
@@ -100,7 +100,7 @@ This software uses the following open source packages, projects, services or web
     <th align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/182px-Python-logo-notext.svg.png" width="150" height="150" alt="PSF"/></th>
     <th align="center"><img src="https://pyinstaller.readthedocs.io/en/v4.2/_static/pyinstaller-draft1a.ico" width="150" height="150" alt="PyInstaller"/></th>
     <th align="center"><img src="https://dynamic.indigoimages.ca/v1/books/books/0753471973/1.jpg?width=614&maxheight=614&quality=85" width="150" height="150" alt="Basher"/></th>
-    <th align="center"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png" width="150" height="150" alt="Wikipedia"/></th>
+    <th align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Wikipedia_logo_%28svg%29.svg/1200px-Wikipedia_logo_%28svg%29.svg.png" width="150" height="150" alt="Wikipedia"/></th>
   </tr>
   <tr>
     <td align="center">GitHub</td>
