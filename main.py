@@ -1,8 +1,20 @@
 """
-Copyright (C) 2016 - 2022 Dog Face Development Co.
-This is the main program file for Periodic Table Info.
-Run this file to run the app.
+Periodic Table Info - Print all the elements in the Periodic Table of the Elements. 
+Copyright (C) 2017-2022 Dog Face Development Co.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, version 3 of the License.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
+# This is the main program file for Periodic Table Info.
 
 # Imports all other files.
 from elements import element_print_out
