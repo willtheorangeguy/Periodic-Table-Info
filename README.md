@@ -52,7 +52,7 @@
 * Prints a list of Periodic Table elements.
 * Sorts elements by group.
 * Offers extended information on each element.
-* Cross Platform.
+* Cross platform.
 
 ## Download
 
