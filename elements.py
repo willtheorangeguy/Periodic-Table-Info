@@ -18,10 +18,6 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 # This prints all of the elements to the screen. And then presents the enter field.
 #This is also the joining file.
 
-# Import Statements
-import colorsys
-import tkinter
-
 # Prints the elements to the screen
 def element_print_out():
     print("--THE PERIODIC TABLE ELEMENTS--")
