@@ -100,7 +100,7 @@ You can pull the [Docker](https://www.docker.com/) image from GitHub Packages. F
 $ docker pull ghcr.io/dog-face-development/periodic-table-info:master
 
 # Run container
-$ docker run -i -t ghcr.io/dog-face-development/periodic-table-info:master python send.py
+$ docker run -i -t ghcr.io/dog-face-development/periodic-table-info:master python main.py
 ```
 
 ## Support
