@@ -16,7 +16,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
 
 # This prints all of the elements to the screen. And then presents the enter field.
-#This is also the joining file.
+# This is also the joining file.
 
 # Prints the elements to the screen
 def element_print_out():
@@ -121,4 +121,3 @@ def element_print_out():
     print("118. Element 118 - Unkown Element (Uuo)")
     print("")
     print("Lanthanoid Elements")
-    

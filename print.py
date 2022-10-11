@@ -18,8 +18,9 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 # Import Statements
 import colorsys
 import tkinter
-#import SciPy
-#import NumPy
+
+# import SciPy
+# import NumPy
 
 # Prints the elements to the screen
 print("--THE PERIODIC TABLE ELEMENTS--")
