@@ -1,6 +1,6 @@
 """
 Periodic Table Info - Print all the elements in the Periodic Table of the Elements. 
-Copyright (C) 2017-2022 Dog Face Development Co.
+Copyright (C) 2017-2023 Dog Face Development Co.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -15,7 +15,6 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
 # This is the main program file for Periodic Table Info.
-
 # Imports all other files.
 from elements import element_print_out
 
@@ -23,7 +22,6 @@ from elements import element_print_out
 print(element_print_out())
 
 input_from_user = input("Please enter the element you would like to learn more about: ")
-
 
 # Prints the information the user want based on what input they have selected.
 if input_from_user.lower() == "":

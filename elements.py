@@ -1,6 +1,6 @@
 """
 Periodic Table Info - Print all the elements in the Periodic Table of the Elements. 
-Copyright (C) 2017-2022 Dog Face Development Co.
+Copyright (C) 2017-2023 Dog Face Development Co.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -14,11 +14,11 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
-
 # This prints all of the elements to the screen. And then presents the enter field.
 # This is also the joining file.
-
 # Prints the elements to the screen
+
+
 def element_print_out():
     print("--THE PERIODIC TABLE ELEMENTS--")
     print("\n")
