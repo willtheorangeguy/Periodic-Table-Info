@@ -1,15 +1,19 @@
+"""Setup file for the Periodic Table Info package."""
+
 from setuptools import setup
 
 
 def readme():
-    with open("README.md") as f:
+    """Read the README.md file."""
+    with open("README.md", encoding="UTF-8") as f:
         return f.read()
 
 
 setup(
     name="periodic-table-info",
     version="0.3.0",
-    description="Print all the elements in the Periodic Table of the Elements, with an interactive prompt to learn more.",
+    description="Print all the elements in the Periodic Table of the Elements, \
+        with an interactive prompt to learn more.",
     long_description=readme(),
     classifiers=[
         "Development Status :: 3 - Alpha",

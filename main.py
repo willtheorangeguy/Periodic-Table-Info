@@ -14,6 +14,8 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
+#pylint: disable=import-error, invalid-name
+
 # This is the main program file for Periodic Table Info.
 # Imports all other files.
 from elements import element_print_out
@@ -30,5 +32,6 @@ if input_from_user.lower() == "":
 else:
     print("Sorry, that is not an element of the current Periodic Table!")
     print(
-        "Remember to type it like this: 'Sodium' or 'sodium'. Capitalization doesn't matter. No punctuation, please!"
+        "Remember to type it like this: 'Sodium' or 'sodium'. \
+            Capitalization doesn't matter. No punctuation, please!"
     )

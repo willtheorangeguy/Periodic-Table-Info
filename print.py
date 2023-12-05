@@ -14,12 +14,7 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
-# Import Statements
-import colorsys
-import tkinter
-
-# import SciPy
-# import NumPy
+#pylint: disable=import-error, invalid-name
 
 # Prints the elements to the screen
 print("--THE PERIODIC TABLE ELEMENTS--")
