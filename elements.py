@@ -14,12 +14,15 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
+#pylint: disable=import-error, invalid-name
+
 # This prints all of the elements to the screen. And then presents the enter field.
 # This is also the joining file.
 # Prints the elements to the screen
 
 
 def element_print_out():
+    """Prints the elements to the screen."""
     print("--THE PERIODIC TABLE ELEMENTS--")
     print("\n")
     print("1. Hydrogen (H)")
