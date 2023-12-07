@@ -1,5 +1,5 @@
 """Test elements.py."""
-#pylint: disable=import-error, wrong-import-position, unused-argument, line-too-long
+# pylint: disable=import-error, wrong-import-position, unused-argument, line-too-long
 
 import sys
 import os

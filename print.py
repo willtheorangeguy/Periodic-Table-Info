@@ -14,7 +14,7 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
-#pylint: disable=import-error, invalid-name, duplicate-code
+# pylint: disable=import-error, invalid-name, duplicate-code
 
 # Prints the elements to the screen
 print("--THE PERIODIC TABLE ELEMENTS--")
