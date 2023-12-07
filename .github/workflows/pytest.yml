@@ -20,6 +20,4 @@ jobs:
     - name: Run tests
       run: |
         pytest -s
-        sleep 5
-        echo -ne '\n'
       
