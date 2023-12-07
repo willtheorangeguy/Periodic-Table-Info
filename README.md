@@ -16,6 +16,8 @@
   <!-- Stability -->
   <img alt="PyPI Build State" src="https://github.com/Dog-Face-Development/Periodic-Table-Info/actions/workflows/push-to-pypi.yml/badge.svg">
   <!-- Stability -->
+  <img alt="Pytest State" src="https://github.com/Dog-Face-Development/Periodic-Table-Info/actions/workflows/pytest.yml/badge.svg">
+  <!-- Stability -->
   <img alt="Pylint State" src="https://github.com/Dog-Face-Development/Periodic-Table-Info/actions/workflows/pylint.yml/badge.svg">
   <!-- CodeQL -->
   <img alt="CodeQL State" src="https://github.com/Dog-Face-Development/Periodic-Table-Info/actions/workflows/codeql-analysis.yml/badge.svg">
