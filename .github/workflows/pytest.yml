@@ -2,6 +2,9 @@ name: PyTest
 
 on: [push, pull_request]
 
+permissions:
+  contents: read
+
 jobs:
   test:
     name: Test on Python ${{ matrix.python-version }}
