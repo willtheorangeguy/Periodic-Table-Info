@@ -1,4 +1,5 @@
 """Test main.py."""
+
 # pylint: disable=import-error, wrong-import-position, unused-argument, redefined-builtin
 
 import unittest
@@ -19,11 +20,12 @@ class TestMain(unittest.TestCase):
         # Import main module which will execute the code
         import importlib
         import main as main_module
+
         importlib.reload(main_module)
-        
+
         # Verify input was called
         mock_input.assert_called()
-        
+
         # Verify error message was printed
         calls = [str(call) for call in mock_print.call_args_list]
         assert any("not an element" in str(call).lower() for call in calls)
@@ -35,8 +37,9 @@ class TestMain(unittest.TestCase):
         # Import main module which will execute the code
         import importlib
         import main as main_module
+
         importlib.reload(main_module)
-        
+
         # Verify input was called
         mock_input.assert_called()
 

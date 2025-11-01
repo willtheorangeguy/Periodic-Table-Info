@@ -1,4 +1,5 @@
 """Test print.py."""
+
 # pylint: disable=import-error, wrong-import-position
 
 import sys
@@ -13,11 +14,11 @@ def test_print_module_output(capfd):
     # Mock print to capture output then reload the print module
     import importlib
     import print as print_module
-    
+
     # Reload to capture the output
     importlib.reload(print_module)
     captured = capfd.readouterr()
-    
+
     # Verify key elements are printed
     assert "--THE PERIODIC TABLE ELEMENTS--" in captured.out
     assert "1. Hydrogen (H)" in captured.out

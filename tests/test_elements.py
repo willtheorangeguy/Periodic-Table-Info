@@ -1,4 +1,5 @@
 """Test elements.py."""
+
 # pylint: disable=import-error, wrong-import-position, unused-argument, line-too-long
 
 import sys
@@ -126,7 +127,7 @@ def test_element_print_out_contains_all_groups(capfd):
     """Test that output contains all element groups"""
     element_print_out()
     captured = capfd.readouterr()
-    
+
     # Check all major groups are present
     assert "Alkali Metals - Group 1" in captured.out
     assert "Alkaline Earth Metals - Group 2" in captured.out
@@ -144,7 +145,7 @@ def test_element_print_out_contains_noble_gases(capfd):
     """Test that output contains all noble gases"""
     element_print_out()
     captured = capfd.readouterr()
-    
+
     # Check noble gases
     assert "Helium (He)" in captured.out
     assert "Neon (Ne)" in captured.out
@@ -158,7 +159,7 @@ def test_element_print_out_contains_alkali_metals(capfd):
     """Test that output contains all alkali metals"""
     element_print_out()
     captured = capfd.readouterr()
-    
+
     # Check alkali metals
     assert "Lithium (Li)" in captured.out
     assert "Sodium (Na)" in captured.out
