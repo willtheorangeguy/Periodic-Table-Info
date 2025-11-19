@@ -1,4 +1,5 @@
 """Test elements.py."""
+
 # pylint: disable=import-error, wrong-import-position, unused-argument, line-too-long
 
 import sys
@@ -10,7 +11,7 @@ from elements import element_print_out
 
 
 def test_element_print_out(capfd):
-    """Test element_print_out()"""
+    """Test element_print_out() produces complete output"""
     element_print_out()
     captured = capfd.readouterr()
     expected_output = (
@@ -106,3 +107,63 @@ def test_element_print_out(capfd):
         "Lanthanide Elements\n"
     )
     assert captured.out == expected_output
+
+
+def test_element_print_out_returns_none():
+    """Test that element_print_out() returns None"""
+    result = element_print_out()
+    assert result is None
+
+
+def test_element_print_out_contains_hydrogen(capfd):
+    """Test that output contains Hydrogen"""
+    element_print_out()
+    captured = capfd.readouterr()
+    assert "Hydrogen" in captured.out
+    assert "(H)" in captured.out
+
+
+def test_element_print_out_contains_all_groups(capfd):
+    """Test that output contains all element groups"""
+    element_print_out()
+    captured = capfd.readouterr()
+
+    # Check all major groups are present
+    assert "Alkali Metals - Group 1" in captured.out
+    assert "Alkaline Earth Metals - Group 2" in captured.out
+    assert "Transition Elements - Groups 3-12" in captured.out
+    assert "Boron Elements - Group 13" in captured.out
+    assert "Carbon Elements - Group 14" in captured.out
+    assert "Nitrogen Elements - Group 15" in captured.out
+    assert "Oxygen Elements - Group 16" in captured.out
+    assert "Halogen Elements - Group 17" in captured.out
+    assert "Noble Gases - Group 18" in captured.out
+    assert "Lanthanide Elements" in captured.out
+
+
+def test_element_print_out_contains_noble_gases(capfd):
+    """Test that output contains all noble gases"""
+    element_print_out()
+    captured = capfd.readouterr()
+
+    # Check noble gases
+    assert "Helium (He)" in captured.out
+    assert "Neon (Ne)" in captured.out
+    assert "Argon (Ar)" in captured.out
+    assert "Krypton (Kr)" in captured.out
+    assert "Xenon (Xe)" in captured.out
+    assert "Radon (Rn)" in captured.out
+
+
+def test_element_print_out_contains_alkali_metals(capfd):
+    """Test that output contains all alkali metals"""
+    element_print_out()
+    captured = capfd.readouterr()
+
+    # Check alkali metals
+    assert "Lithium (Li)" in captured.out
+    assert "Sodium (Na)" in captured.out
+    assert "Potassium (K)" in captured.out
+    assert "Rubidium (Rb)" in captured.out
+    assert "Cesium (Cs)" in captured.out
+    assert "Francium (Fr)" in captured.out
