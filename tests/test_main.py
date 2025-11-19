@@ -1,9 +1,10 @@
 """Test main.py."""
 
 # pylint: disable=import-error, wrong-import-position, unused-argument, redefined-builtin
+# pylint: disable=import-outside-toplevel
 
 import unittest
-from unittest.mock import patch, MagicMock
+from unittest.mock import patch
 import sys
 import os
 

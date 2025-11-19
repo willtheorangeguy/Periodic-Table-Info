@@ -4,8 +4,7 @@
 
 import sys
 import os
-from unittest.mock import patch, MagicMock
-import subprocess
+import importlib.util
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -27,8 +26,6 @@ def test_main_entry_point_structure():
 def test_main_module_can_be_imported():
     """Test that __main__.py can be imported without errors."""
     # Import the module using importlib
-    import importlib.util
-
     main_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "__main__.py")
     spec = importlib.util.spec_from_file_location("__main_test__", main_path)
     module = importlib.util.module_from_spec(spec)
@@ -38,7 +35,7 @@ def test_main_module_can_be_imported():
     assert spec is not None
 
 
-def test_main_execution_via_python_m(capfd):
+def test_main_execution_via_python_m():
     """Test running the module via python -m."""
     # This test would require subprocess which might not work in all environments
     # So we'll verify the structure instead

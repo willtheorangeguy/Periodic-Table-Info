@@ -1,10 +1,9 @@
 """Test print.py."""
 
-# pylint: disable=import-error, wrong-import-position
+# pylint: disable=import-error, wrong-import-position, import-outside-toplevel
 
 import sys
 import os
-from unittest.mock import patch
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
