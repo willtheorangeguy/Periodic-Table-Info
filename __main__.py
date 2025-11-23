@@ -1,5 +1,6 @@
 """Main entry point for the application."""
-#pylint: disable=import-error, invalid-name
+
+# pylint: disable=import-error, invalid-name
 
 from elements import element_print_out
 

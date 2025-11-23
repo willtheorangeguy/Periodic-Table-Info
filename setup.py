@@ -1,5 +1,6 @@
 """Setup file for the Periodic Table Info package."""
-#pylint: disable=duplicate-code
+
+# pylint: disable=duplicate-code
 
 from setuptools import setup
 
