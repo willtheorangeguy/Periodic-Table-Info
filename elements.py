@@ -1,5 +1,5 @@
 """
-Periodic Table Info - Print all the elements in the Periodic Table of the Elements. 
+Periodic Table Info - Print all the elements in the Periodic Table of the Elements.
 Copyright (C) 2017-2024 Dog Face Development Co.
 
 This program is free software: you can redistribute it and/or modify
@@ -14,6 +14,7 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
+
 # pylint: disable=import-error, invalid-name, too-many-statements, duplicate-code
 
 # This prints all of the elements to the screen. And then presents the enter field.
