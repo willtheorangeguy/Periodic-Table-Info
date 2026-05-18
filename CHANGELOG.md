@@ -1,13 +1,13 @@
 # Changelog
 
-## [v0.3.0](https://github.com/Dog-Face-Development/Periodic-Table-Info/releases/tag/v0.3.0)
+## [v0.3.0](https://github.com/willtheorangeguy/Periodic-Table-Info/releases/tag/v0.3.0)
 
 ### Added
 
 - Docker container.
 - PyPI package.
 
-## [v0.2.0](https://github.com/Dog-Face-Development/Periodic-Table-Info/releases/tag/v0.2.0)
+## [v0.2.0](https://github.com/willtheorangeguy/Periodic-Table-Info/releases/tag/v0.2.0)
 
 ### Updated
 
@@ -18,14 +18,14 @@
 
 - Website
 
-## [v1.2.0](https://github.com/Dog-Face-Development/Periodic-Table-Info/releases/tag/v0.1-beta)
+## [v1.2.0](https://github.com/willtheorangeguy/Periodic-Table-Info/releases/tag/v0.1-beta)
 
 ### Added
 
 - Community documentation
 - Website
 
-## [v0.1.0](https://github.com/Dog-Face-Development/Periodic-Table-Info/releases/tag/v0.1-beta)
+## [v0.1.0](https://github.com/willtheorangeguy/Periodic-Table-Info/releases/tag/v0.1-beta)
 
 ### Added
 
