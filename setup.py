@@ -19,13 +19,13 @@ setup(
     long_description=readme(),
     classifiers=[
         "Development Status :: 3 - Alpha",
-        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+        "License :: OSI Approved :: MIT License",
         "Natural Language :: English",
         "Operating System :: OS Independent",
         "Topic :: Education",
     ],
     keywords="periodic table education info cli",
-    url="https://github.com/Dog-Face-Development/Periodic-Table-Info",
+    url="https://github.com/willtheorangeguy/Periodic-Table-Info",
     author="willtheorangeguy",
     py_modules=["elements", "print", "main"],
     entry_points={
