@@ -1,123 +1,87 @@
 <!-- Logo -->
 <h1 align="center">
-  <img src="https://github.com/willtheorangeguy/Periodic-Table-Info/blob/master/docs/images/logo.png" height="350px" width="400px" alt="Periodic Table Info">
+  <img src="https://raw.githubusercontent.com/willtheorangeguy/.github/main/icons/Periodic-Table-Info/logo.png" height="250px" width="400px" alt="Periodic Table Info">
   <br>
   Periodic Table Info
   <br>
 </h1>
 
 <!-- Copy -->
-<h4 align="center">Print all the elements in the Periodic Table of the Elements, with an interactive prompt to learn more.</h4>
+<h4 align="center">Prints the elements of the periodic table, grouped by family, from the command line.</h4>
 
 <!-- Badges -->
 <div align="center">
-  <!-- Stability -->
-  <img alt="Docker Build State" src="https://github.com/willtheorangeguy/Periodic-Table-Info/actions/workflows/docker-publish.yml/badge.svg">
-  <!-- Stability -->
-  <img alt="PyPI Build State" src="https://github.com/willtheorangeguy/Periodic-Table-Info/actions/workflows/push-to-pypi.yml/badge.svg">
-  <!-- Stability -->
-  <img alt="Pytest State" src="https://github.com/willtheorangeguy/Periodic-Table-Info/actions/workflows/pytest.yml/badge.svg">
-  <!-- Stability -->
-  <img alt="Pylint State" src="https://github.com/willtheorangeguy/Periodic-Table-Info/actions/workflows/pylint.yml/badge.svg">
-  <!-- CodeQL -->
-  <img alt="CodeQL State" src="https://github.com/willtheorangeguy/Periodic-Table-Info/actions/workflows/codeql-analysis.yml/badge.svg">
-  <!-- Version -->
   <img alt="GitHub Version" src="https://img.shields.io/github/v/release/willtheorangeguy/Periodic-Table-Info?include_prereleases">
-  <!-- Issues -->
   <img alt="GitHub Issues" src="https://img.shields.io/github/issues/willtheorangeguy/Periodic-Table-Info">
-  <!-- Pull Requests -->
   <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/willtheorangeguy/Periodic-Table-Info">
-  <!-- Discord -->
-  <img alt="Discord Server ID" src="https://img.shields.io/discord/1015866225827520543">
-  <!-- Downloads -->
-  <img alt="Downloads" src="https://img.shields.io/github/downloads/willtheorangeguy/Periodic-Table-Info/total">
-  <!-- Language Count -->
-  <img alt="GitHub Languages" src="https://img.shields.io/github/languages/count/willtheorangeguy/Periodic-Table-Info">
+  <img alt="License" src="https://img.shields.io/github/license/willtheorangeguy/Periodic-Table-Info">
 </div>
 
 <!-- Navigation -->
 <p align="center">
+  <a href="#status">Status</a> •
   <a href="#key-features">Key Features</a> •
-  <a href="#download">Download</a> •
-  <a href="#how-to-use">How To Use</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#documentation">Documentation</a> •
   <a href="#support">Support</a> •
   <a href="#contributing">Contributing</a> •
-  <a href="#changelog">Changelog</a> •
-  <a href="#credits">Credits & Contributors</a>
+  <a href="#credits">Credits</a> •
+  <a href="#license">License</a>
 </p>
 
-<!-- Screenshot(s) -->
-![screenshot](https://github.com/willtheorangeguy/Periodic-Table-Info/blob/master/docs/images/welcome.png)
+<!-- Screenshot -->
+<div align="center">
+  <img alt="Periodic Table Info" src="https://raw.githubusercontent.com/willtheorangeguy/.github/main/icons/Periodic-Table-Info/welcome.png">
+</div>
+
+## Status
+
+**The listing works; the lookup does not.** After printing the table the program asks which element you would like to learn more about, and **every answer** — including `Sodium`, the example its own error message gives — returns "Sorry, that is not an element of the current Periodic Table!".
+
+The table is also incomplete: the Lanthanide heading has no elements beneath it, there is no Actinide section, and elements 113–118 still carry the placeholder names IUPAC replaced in 2016.
+
+See [`docs/internal/known-issues.md`](docs/internal/known-issues.md) for the detail.
 
 ## Key Features
 
-* Prints a list of Periodic Table elements.
-* Sorts elements by group.
-* Offers extended information on each element.
-* Cross platform.
+- Prints the elements grouped by family — alkali metals, halogens, noble gases, and the rest.
+- Numbered by atomic number, with chemical symbols.
+- Pure standard library, no dependencies.
+- Cross-platform.
 
-## Download
-
-You can **[download](https://github.com/willtheorangeguy/Periodic-Table-Info/releases/latest) the source code** to run the scripts from the command line on Windows, macOS and Linux. **This will require [Python](https://www.python.org/downloads/).**
-
-You can **[download](https://github.com/willtheorangeguy/Periodic-Table-Info/releases/latest) the latest executable version** of Periodic Table Info for Windows. **This does not require Python.**
-
-## How To Use
-
-To run the application, you can use [Git and the Python Interpreter](https://github.com/willtheorangeguy/Periodic-Table-Info/main/README.md#git), which allows you to clone and run the application, [`pip`](https://github.com/willtheorangeguy/Periodic-Table-Info/main/README.md#pip) to create a command line application, or [Docker](https://github.com/willtheorangeguy/Periodic-Table-Info/main/README.md#docker) to create a container of the application.
-
-### Git
-
-To clone and run this application, you'll need [Git](https://git-scm.com/downloads) and [Python](https://www.python.org/downloads/) installed on your computer. If you would rather not use Git, you can just download the script from GitHub above. From your command line:
+## Installation
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/willtheorangeguy/Periodic-Table-Info
-
-# Go into the repository
-$ cd Periodic-Table-Info
-
-# Run the CLI
-$ python main.py
+git clone https://github.com/willtheorangeguy/Periodic-Table-Info
+cd Periodic-Table-Info
+python main.py
 ```
 
-### `pip`
+There is also a PyPI package and a Docker image, though both run a smaller program than `main.py` does — see [`docs/installation.md`](docs/installation.md).
 
-You can install the program from the [Python Package Index](https://pypi.org/project/Periodic-Table-Info/) through `pip`.
+## Usage
 
 ```bash
-# Install via pip
-$ pip install periodic-table-info
-
-# Run the CLI
-$ periodic-table-info
+python main.py
 ```
 
-### Docker
+Prints the table, then prompts for an element. The prompt does not currently work; see Status.
 
-You can pull the [Docker](https://www.docker.com/) image from GitHub Packages. From your command line:
+## Documentation
 
-```bash
-# Pull image
-$ docker pull ghcr.io/willtheorangeguy/periodic-table-info:master
-
-# Run container
-$ docker run -i -t ghcr.io/willtheorangeguy/periodic-table-info:master python main.py
-```
+Full documentation lives in [`docs/`](docs/README.md):
+[Quickstart](docs/quickstart.md) · [Installation](docs/installation.md) · [Architecture](docs/architecture.md) · [Development](docs/development.md) · [FAQ](docs/faq.md) · [Troubleshooting](docs/troubleshooting.md) · [Roadmap](docs/roadmap.md)
 
 ## Support
 
-More documentation is available in the **[Documentation](https://github.com/willtheorangeguy/Periodic-Table-Info/tree/master/docs)** and on the **[Wiki](https://github.com/willtheorangeguy/Periodic-Table-Info/wiki)**. If more support is required, please open a **[GitHub Discussion](https://github.com/willtheorangeguy/Periodic-Table-Info/discussions)** or join our **[Discord](https://discord.gg/JF2cgABFPw)**.
+Open a [GitHub Discussion](https://github.com/willtheorangeguy/Periodic-Table-Info/discussions) or file an [issue](https://github.com/willtheorangeguy/Periodic-Table-Info/issues/new/choose).
 
 ## Contributing
 
 Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a branch, add commits, and [open a pull request](https://github.com/willtheorangeguy/Periodic-Table-Info/compare).
 
-Please read [`CONTRIBUTING`](https://github.com/willtheorangeguy/.github/blob/main/CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](https://github.com/willtheorangeguy/.github/blob/main/CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
-
-## Changelog
-
-See the [`CHANGELOG`](CHANGELOG.md) file for details.
+See the org-wide [Contributing Guide](https://github.com/willtheorangeguy/.github/blob/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/willtheorangeguy/.github/blob/main/CODE_OF_CONDUCT.md).
 
 ## Credits
 
@@ -148,16 +112,8 @@ This software uses the following open source packages, projects, services or web
   </tr>
 </table>
 
-## Contributors
-
-* [@willtheorangeguy](https://github.com/willtheorangeguy) - Sponsor on [PayPal](https://paypal.me/wvdg44?country.x=CA&locale.x=en_US)
-
-## You may also like...
-
-* [ProgramVer](https://github.com/willtheorangeguy/ProgramVer) - An open-source, Python GUI version window to show copyright info and licenses.
-* [PyWorkout](https://github.com/willtheorangeguy/PyWorkout) - A minimal CLI to keep you inspired during your workout!
-* [PyAvatar](https://github.com/willtheorangeguy/PyAvatar) - Easily display all of your creative avatars to keep them consistent across websites.
+Sponsor [@willtheorangeguy](https://github.com/willtheorangeguy) on [PayPal](https://paypal.me/wvdg44?country.x=CA&locale.x=en_US).
 
 ## License
 
-This project is licensed under the [MIT License](https://mit-license.org/) - see the [`LICENSE`](LICENSE.md) file for details.
+MIT — see [`LICENSE.md`](LICENSE.md).
