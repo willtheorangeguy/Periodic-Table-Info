@@ -14,7 +14,7 @@ No dependencies.
 
 The elements printed by family:
 
-```
+```text
 --THE PERIODIC TABLE ELEMENTS--
 
 1. Hydrogen (H)
@@ -29,7 +29,7 @@ Then, at the end, a stray `None` — see below — and a prompt.
 
 ## The prompt does not work
 
-```
+```text
 Please enter the element you would like to learn more about: Sodium
 Sorry, that is not an element of the current Periodic Table!
 Remember to type it like this: 'Sodium' or 'sodium'. ...

@@ -2,7 +2,7 @@
 
 A command-line reference that prints the elements of the periodic table grouped by family.
 
-```
+```text
 Periodic-Table-Info/
 ├── main.py       prints the table, then prompts for an element
 ├── elements.py   element_print_out() — the table itself

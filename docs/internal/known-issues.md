@@ -7,12 +7,11 @@ licensing decision rather than a documentation one.
 Ordered by severity. See [`docs/roadmap.md`](../roadmap.md) for the narrative version,
 which also covers deliberate non-goals.
 
-
 **6 open:** 1 high, 3 medium, 2 low.
 
 ## 1. Every element lookup fails, including the example the error message gives
 
-**Severity:** High  
+**Severity:** High
 **Where:** `main.py`
 
 **What:**     if input_from_user.lower() == "":
@@ -28,7 +27,7 @@ The only branch that matches is the empty string. Every element name falls to th
 
 ## 2. The table omits the lanthanides and actinides, about 30 elements
 
-**Severity:** Medium  
+**Severity:** Medium
 **Where:** `elements.py` -> `element_print_out`
 
 **What:** The function's final statement is `print("Lanthanide Elements")`. Nothing follows it -- no lanthanides, and no actinide section at all. Verified by running it: the output ends with that heading. The README described the program as printing 'a list of Periodic Table elements' and the module docstring says 'Print all the elements in the Periodic Table of the Elements'.
@@ -39,7 +38,7 @@ The only branch that matches is the empty string. Every element name falls to th
 
 ## 3. Elements 113 to 118 use placeholder names withdrawn in 2016
 
-**Severity:** Medium  
+**Severity:** Medium
 **Where:** `elements.py`
 
 **What:** The table lists `Element 113 - Unknown Element (Uut)`, `(Uup)`, `(Uus)`, and `(Uuo)`. These are IUPAC systematic placeholders used before an element is formally named. All six of elements 113 to 118 were named by 2016: Nihonium (Nh), Flerovium (Fl), Moscovium (Mc), Livermorium (Lv), Tennessine (Ts), and Oganesson (Og).
@@ -50,7 +49,7 @@ The only branch that matches is the empty string. Every element name falls to th
 
 ## 4. The installed command runs a smaller program than the source does
 
-**Severity:** Medium  
+**Severity:** Medium
 **Where:** `setup.py`, `setup.cfg` -> `console_scripts`; `main.py`
 
 **What:** Both declare `periodic-table-info = elements:element_print_out`. That function prints the table and returns. The prompt, and everything after it, lives in `main.py`, which the entry point does not reference -- so `pip install periodic-table-info && periodic-table-info` prints the list and exits. The Docker image runs the same entry point.
@@ -61,7 +60,7 @@ The only branch that matches is the empty string. Every element name falls to th
 
 ## 5. print.py is a second copy of the table, imported by nothing
 
-**Severity:** Low  
+**Severity:** Low
 **Where:** `print.py`, `elements.py`
 
 **What:** 109 lines reproducing `element_print_out`'s output as module-level `print()` calls, with no function wrapper. Nothing imports it -- `main.py` uses `elements`, and both packaging files point at `elements`. The filename also shadows the builtin for any module doing `import print`.
@@ -72,7 +71,7 @@ The only branch that matches is the empty string. Every element name falls to th
 
 ## 6. A stray None is printed after the table
 
-**Severity:** Low  
+**Severity:** Low
 **Where:** `main.py` -> `print(element_print_out())`
 
 **What:** `element_print_out` prints the table and returns `None` implicitly. Wrapping the call in `print()` renders that `None` on its own line between the table and the prompt.
@@ -80,7 +79,6 @@ The only branch that matches is the empty string. Every element name falls to th
 **Why it matters:** Cosmetic, and the smallest thing here -- but it is the last line of output before the program asks the user a question, so it is on screen at the moment they are deciding whether the program is working. Combined with the table ending on an empty heading, the closing impression is of something half-finished.
 
 **Suggested fix:** Call it without wrapping: `element_print_out()`. Or have it return the string and print that, which would also make it testable.
-
 
 ---
 

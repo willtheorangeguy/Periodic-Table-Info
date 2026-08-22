@@ -2,7 +2,7 @@
 
 Three files, 250 lines, and one of them is unused.
 
-```
+```text
 main.py       print(element_print_out())  →  input()  →  a branch that never matches
 elements.py   element_print_out()          the table, as a sequence of print() calls
 print.py      the same output again, at module level, imported by nothing
